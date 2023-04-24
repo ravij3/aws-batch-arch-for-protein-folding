@@ -41,6 +41,10 @@ This repository includes the CloudFormation template, Jupyter Notebook, and supp
 
 ## 2. Quick Start
 
+> **Note**
+>
+> Before proceeding ensure that your Account has sufficient quota to launch g4dn.2xlarge instances in your AWS Account. Some protein folding jobs will remain in RUNNABLE state if AWS Batch can't provision g4dn.2xlarge instances in your account.
+
 1. Choose **Launch Stack** and (if prompted) log into your AWS account:
 
     [![Launch Stack](imgs/LaunchStack.jpg)](https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?templateURL=https://aws-batch-architecture-for-alphafold-public-artifacts.s3.amazonaws.com/main/batch-protein-folding-cfn-packaged.yaml)  
